@@ -1,0 +1,14 @@
+.moveable{
+    display: block;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    border: 1px solid red;
+    transition: top 1s, left 1s;
+}
+
+.detector{
+    position: absolute;
+    border: 1px solid green;
+    display: block;
+}
